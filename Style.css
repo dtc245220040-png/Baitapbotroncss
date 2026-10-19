@@ -1,0 +1,68 @@
+
+/* Bộ chọn element: áp dụng cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2ff;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Bộ chọn class */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+/* Bộ chọn id */
+#main-title {
+    color: #1d4ed8;
+    text-align: center;
+}
+
+/* Bộ chọn grouping: định dạng nhiều phần tử cùng lúc */
+h2, p {
+    color: #374151;
+}
+
+/* Bộ chọn class */
+.description {
+    line-height: 1.8;
+}
+
+/* Mỗi sở thích có màu khác nhau */
+.hobby-1 {
+    color: #e11d48;
+}
+
+.hobby-2 {
+    color: #16a34a;
+}
+
+.hobby-3 {
+    color: #7c3aed;
+}
+
+/* Bộ chọn element */
+li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+/* Định dạng nút bấm */
+#my-button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Pseudo-class: thay đổi màu khi di chuột vào nút */
+#my-button:hover {
+    background-color: #1e40af;
+}
